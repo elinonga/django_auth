@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django auth"
+version = "1.0.0"
+description = "Going forward this will be used in all my Django projects authentication"
+authors = ["mezza <44901625+elinonga@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.1"
+psycopg2 = "^2.9.6"
+dj-database-url = "^2.0.0"
+python-dotenv = "^1.0.0"
+django-environ = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
